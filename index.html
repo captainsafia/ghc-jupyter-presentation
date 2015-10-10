@@ -37,212 +37,27 @@
 	<body>
 
 		<div class="reveal">
-			<div class="slides">
+            <div class="slides">
+                <section>
+                    <h1> The Future Is Not on Mars </h1>
+                    <h1> It's On Jupyter! </h1>
+                </section>
 
-				<section data-background="media/talktocomputers.jpg"><!--- slide -->
-					<h1>Welcome</h1>
-				</section>
+                <section>
+                    <h1> What is Jupyter?
+                </section>
 
-				<section><!--- slide -->
-					<h1>Journey to Jupyter</h1>
-					<h3>Explore, Empower, Change</h3>
-					<img src="media/abi.png" width="200px">
-					<p>Qualcomm EmpowHERment Workshop</p>
-					<p>July 17, 2015</p>
-				</section>
+                <section>
+                    <h1> Why should you teach with Jupyter? </h1>
+                </section>
 
-				<section><!--- slide -->
-					<h2>Your guides</h2>
-					<h3>Dr. Youwen Ouyang</h3>
-					<p>Professor and Chair</p>
-					<p>Dept of Computer Science and Information Systems</p>
-					<p>California State University San Marcos</p>
-					<img src="media/csusm.png" width="250px" >
-				</section>
+                <section>
+                    <h1> Why should you code with Jupyter </h1>
+                </section>
 
-				<section><!--- slide -->
-					<h2>Your guides</h2>
-					<h3>Carol Willing</h3>
-					<p>Director, Python Software Foundation</p>
-					<img src="media/psf.png" width="200px" >
-					<p>Geek-in-Residence, FabLab San Diego</p>
-					<img src="media/fablablogo.png" width="200px" >
-					<p>Developer, Willing Consulting</p>
-				</section>
-				<section><!--- slide -->
-				    <h2>What is Jupyter?</h2>
-				</section>
-
-				<section data-background="media/ProjectJupyterShots/jupyter_home.png"><!--- slide -->
-				<h2>Powerful yet intuitive</h2>
-				</section>
-
-				<section data-background="media/ProjectJupyterShots/polyglot.png"><!--- slide -->
-				<h2>Many languages</h2>
-				</section>
-
-				<section data-background="media/ProjectJupyterShots/sample_one.png"><!--- slide -->
-				<h2>Interactive</h2>
-				</section>
-
-				<section data-background="media/ProjectJupyterShots/sample_two.png"><!--- slide -->
-				<h2>Iterative</h2>
-				</section>
-
-
-				<section><!--- slide -->
-				    <h2>Why?</h2>
-				</section>
-
-				<section><!--- slide -->
-					<h2>Mentor and share</h1>
-					<h3>SciPy 2014 @ UT-Austin</h3>
-					<h3>Grace Hopper Celebration 2014 - Phoenix</h3>
-					<h3>CSUSM Hackathon October 2014</h3>
-					<h3>CSUSM Women in Computing</h3>
-				</section>
-
-				<section data-background="media/sdwomenshackathon.png"><!--- slide -->
-				<h2><a href="http://sandiegohackathon.org/">San Diego Womens' Hackathon</a></h2>
-				<h3>Hosted at Cal State San Marcos</h3>
-				</section>
-
-				<section data-background="media/hourofcode.jpg"><!--- slide -->
-					<h2 style="color:white">Interact and engage</h2>
-					<p style="color:white">Hour of Code 2014</p>
-				</section>
-
-				<section data-background="media/teenfablab.jpg"><!--- slide -->
-					<h2 style="color:white">Empower</h2>
-					<img src="media/teenfablab.jpg" width="250px">
-					<p style="color:white">National Day of Civic Hacking 2015</p>
-				</section>
-
-				<section><!--- slide -->
-					<h2>Change</h2>
-					<img src="media/groupPhoto.JPG" width="1000px">
-					<h4><a href="http://sandiegohackathon.org/">San Diego Womens' Hackathon</a></h4>
-					<p>Bone health and Water conservation projects</p>
-				</section>
-
-				<section><!--- slide -->
-				    <h2>How?</h2>
-				</section>
-
-				<section><!--- slide -->
-				    <h2>Try Jupyter</h2>
-				    <h3><a href=https://try.jupyter.org>try.jupyter.org</a></h3>
-				</section>
-
-				<section><!--- slide -->
-				<h2>From data to visualization</h2>
-				<h4>A few lines of code</h4>
-				    <pre><code>
-%matplotlib inline
-
-import pandas as pd
-import numpy as np
-import matplotlib
-
-from matplotlib import pyplot as plt
-import seaborn as sns
-
-ts = pd.Series(np.random.randn(1000),
-               index=pd.date_range('1/1/2000',
-               periods=1000))
-ts = ts.cumsum()
-
-df = pd.DataFrame(np.random.randn(1000, 4), index=ts.index,
-                  columns=['A', 'B', 'C', 'D'])
-df = df.cumsum()
-plt.figure(); df.plot(); plt.legend(loc='best')
-					</code></pre>
-				</section>
-
-				<section><!--- slide -->
-					<h2>From data to visualization</h2>
-					<img src="media/visual.png" width="800px">
-				</section>
-
-				<section><!--- slide -->
-				    <h2>The <a href="http://www.scipy.org/">SciPy</a> Stack</h2>
-				    <img src="media/scipystack.png" width="1000px">
-				</section>
-
-				<section><!--- slide -->
-				    <h2>Examples</h2>
-				    <h3><a href=https://try.jupyter.org>try.jupyter.org</a></h3>
-				</section>
-
-				<section><!--- slide -->
-				    <h2>Installing a Bundle</h2>
-				    <h3>Anaconda <a href="http://continuum.io/downloads">http://continuum.io/downloads</a></h3>
-				    <h3>Canopy Express <a href="https://store.enthought.com/downloads/">https://store.enthought.com/downloads/</a></h3>
-				</section>
-
-
-
-				<section><!--- slide -->
-				    <h2>Who?</h2>
-				</section>
-
-				<section><!--- slide -->
-				    <h2>Researchers</h2>
-				    <h2>Instructors</h2>
-				    <h2>Students</h2>
-				    <h2>Engineers</h2>
-				    <h2>Data Analysts</h2>
-				</section>
-
-				<section><!--- slide -->
-				    <h2>A peer using Jupyter</h2>
-					<img src="media/jhamrick.png" width="1000px">
-					<h4><a href="http://www.jesshamrick.com/">http://www.jesshamrick.com/</a></h4>
-					<h4><a href="https://developer.rackspace.com/blog/deploying-jupyterhub-for-education/">https://developer.rackspace.com/blog/deploying-jupyterhub-for-education/</a></h4>
-				</section>
-
-				<section><!--- slide -->
-				    <h2>What will YOU</h2>
-				    <h3>explore</h3>
-				    <h3>empower</h3>
-				    <h3>change</h3>
-				    <h2>?</h2>
-				</section>
-
-				<section><!--- slide -->
-				    <h2>When?</h2>
-				    <img src="media/lightner.jpg" width="600px">
-				</section>
-
-				<section><!--- slide -->
-				    <h2>EmpowHERment Hackathon</h2>
-				    <h3>Research</h3>
-				    <h3>Visualizations</h3>
-				    <h3>Animate</h3>
-				    <h3>Prototype</h3>
-				    <h3>Share</h3>
-				</section>
-
-				<section><!--- slide -->
-				    <h2>Ways to learn more...</h2>
-				    <h3>Join <a href="http://anitaborg.org/get-involved/systers/">Systers</a></h3>
-				    <h3>Get involved on campus</h3>
-				    <h3>User groups like <a href="http://pyladies.com">PyLadies</a></h3>
-				    <h3>Conferences (and <a href="http://pyvideo.org">pyvideo.org</a>)</h3>
-				    <h3>Ask questions</h3>
-				</section>
-
-				<section><!--- slide -->
-				    <h2>Thank you</h2>
-
-				    <h4>Presentation: <a href="http://bit.ly/empowher-jupyter">http://bit.ly/empowher-jupyter</a></h4>
-				    <h4>Source code: <a href="http://bit.ly/empowher-source">http://bit.ly/empowher-source</a></h4>
-				</section>
-
-				<section data-background="media/2015_02_06_pyladies_cupcake.jpg"><!--- slide -->
-				    <h1>Happy hacking!</h1>
-				</section>
-
+                <section>
+                    <h1> Why should you contribute to Jupyter? </h1>
+                </section>
 			</div><!-- slides -->
 		</div><!-- reveal -->
 
